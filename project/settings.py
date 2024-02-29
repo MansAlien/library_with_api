@@ -49,11 +49,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     #3rd party packs
+    "rest_framework",
     'crispy_forms',
     'crispy_bootstrap5',
     # my app
     # "accounts.apps.AccountsConfig",
     "books.apps.BooksConfig",
+    "apis.apps.ApisConfig",
 ]
 
 MIDDLEWARE = [
